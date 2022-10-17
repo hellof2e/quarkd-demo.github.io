@@ -1,1 +1,0 @@
-# quarkd.github.io
