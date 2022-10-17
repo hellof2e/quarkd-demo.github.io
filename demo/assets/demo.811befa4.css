@@ -1,0 +1,8 @@
+.empty-demo {
+  background-color: #fff !important;
+}
+.empty-demo .outer {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
