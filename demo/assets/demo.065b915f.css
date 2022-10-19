@@ -1,0 +1,12 @@
+quark-marquee {
+  color: #ee8c02;
+}
+quark-marquee .line {
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+quark-marquee .flex {
+  display: flex;
+  align-items: center;
+}
