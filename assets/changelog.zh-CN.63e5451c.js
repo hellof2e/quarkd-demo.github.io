@@ -1,1 +1,0 @@
-import{c as e,o,b as s}from"./vue.7987883a.js";const a={class:"markdown-body"},c=s("h1",null,"\u66F4\u65B0\u65E5\u5FD7",-1),n=[c],h={__name:"changelog.zh-CN",setup(r,{expose:t}){return t({frontmatter:{}}),(d,l)=>(o(),e("div",a,n))}};export{h as default};
