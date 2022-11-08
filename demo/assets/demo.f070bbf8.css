@@ -1,0 +1,29 @@
+
+.tag-container[data-v-295b8f66] {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.progress-wrap[data-v-295b8f66] {
+  background: #fff;
+  padding-right: 32px;
+}
+quark-progress[data-v-295b8f66] {
+  width: 100%;
+  margin: 16px;
+  margin-right: 0;
+}
+.green[data-v-295b8f66] {
+  --progress-box-background: yellowgreen;
+  --progress-margin-left: 6px;
+}
+.auto[data-v-295b8f66] {
+  width: 95%;
+  height: 6px;
+}
+.wrap[data-v-295b8f66] {
+  display: flex;
+  align-items: center;
+}
+.percent[data-v-295b8f66] {
+  color: yellowgreen;
+}
