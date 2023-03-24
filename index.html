@@ -17,15 +17,26 @@
 
       gtag('config', 'G-Q2S3B5S36R');
     </script>
-    <script>
 
-index.search('query', {
-  userToken: '61cd02f2edf77265519983d9e0230938',
-  clickAnalytics: true
-}).then(({ hits, queryID }) => {
-  console.log(hits, queryID);
-})
-    </script>
+
+  <script>
+  var ALGOLIA_INSIGHTS_SRC = "https://cdn.jsdelivr.net/npm/search-insights@2.4.0";
+  
+  !function(e,a,t,n,s,i,c){e.AlgoliaAnalyticsObject=s,e[s]=e[s]||function(){
+  (e[s].queue=e[s].queue||[]).push(arguments)},i=a.createElement(t),c=a.getElementsByTagName(t)[0],
+  i.async=1,i.src=n,c.parentNode.insertBefore(i,c)
+  }(window,document,"script",ALGOLIA_INSIGHTS_SRC,"aa");
+
+
+  const aa = require("search-insights")
+
+  aa('init', {
+    appId: 'EA4BY59U66',
+    apiKey: '61cd02f2edf77265519983d9e0230938'
+  })
+  </script>
+
+
     <script type="module" crossorigin src="./assets/vue.450c7668.js"></script>
     <link rel="stylesheet" href="./assets/index.29c34739.css">
   </head>
