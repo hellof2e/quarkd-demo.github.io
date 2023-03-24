@@ -17,6 +17,20 @@
 
       gtag('config', 'G-Q2S3B5S36R');
     </script>
+
+    <script>
+      const insightsMiddleware = instantsearch.middlewares.createInsightsMiddleware({
+        insightsClient: window.aa,
+      });
+
+      search.use(insightsMiddleware);
+
+      const userToken = // Get the user token (synchronously or asynchronously).
+
+      // The `insights` middleware receives a notification
+      // and attaches the `userToken` to search calls onwards.
+      window.aa('setUserToken', userToken);
+    </script>
     <script type="module" crossorigin src="./assets/vue.450c7668.js"></script>
     <link rel="stylesheet" href="./assets/index.29c34739.css">
   </head>
