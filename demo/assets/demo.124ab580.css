@@ -1,0 +1,20 @@
+
+.pull-content[data-v-453c7618] {
+  padding: 16px;
+  height: 475px;
+}
+.refresh-text[data-v-453c7618] {
+  font-size: 14px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+  color: #879099;
+}
+.refresh-text img[data-v-453c7618] {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
