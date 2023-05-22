@@ -1,0 +1,14 @@
+.tag-demo .custom-background {
+  --tag-background: #666;
+}
+.tag-demo .custom-color {
+  --tag-background: #fff;
+  --tag-text-color: #fb990f;
+}
+.tag-demo .custom-border-color {
+  --tag-border-color: #fb990f;
+}
+.tag-demo .tag-container {
+  margin: 5px;
+  display: inline-flex;
+}
