@@ -1,1 +1,1 @@
-# The Quark Design website
+# The Quark Design demo assets
