@@ -1,0 +1,11 @@
+.radio-demo .radio-container {
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+.radio-demo .my-color {
+  --radio-background: linear-gradient(225deg, #ff918d 0%, #f54640 100%);
+}
+quark-radio {
+  padding: 10px 0;
+}
