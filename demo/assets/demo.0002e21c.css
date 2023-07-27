@@ -1,0 +1,10 @@
+.swipe-cell-demo {
+  --button-height: 100%;
+}
+.swipe-cell-demo .right,
+.swipe-cell-demo .left {
+  height: 100%;
+}
+.swipe-cell-demo .quark-button {
+  height: 100%;
+}
