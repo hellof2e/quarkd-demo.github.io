@@ -1,0 +1,7 @@
+.demo-circle quark-circle {
+  margin-bottom: 12px;
+  margin-right: 8px;
+}
+.demo-circle .custom {
+  --quark-circle-transition: all linear 0.3s;
+}
