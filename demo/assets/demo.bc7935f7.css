@@ -1,0 +1,14 @@
+.demo {
+  background: #ffffff;
+}
+.demo .demo-buttons quark-button {
+  margin: 8px;
+}
+.demo .flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.demo .flex quark-button {
+  margin: 4px;
+}
